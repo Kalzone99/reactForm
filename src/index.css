@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, #c3c3c3, #1a71b4);
+}
+.container {
+  background: linear-gradient(to right, #c3c3c3, #1a71b4);
+  width: 50vw;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #474646;
+  margin-top: 10px;
+}
+input {
+  width: 70%;
+  height: 25px;
+  border: 2px solid black;
+}
+li {
+  list-style: none;
+}
+p {
+  color: red;
+  margin-bottom: 20px;
+}
+button {
+  padding: 30px, 30px;
+  width: 100px;
+  height: 50px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: rgba(15, 15, 162, 0.668);
+  color: rgba(221, 239, 242, 0.811);
+}
+button:hover {
+  background-color: rgba(15, 162, 137, 0.668);
+  color: #000;
+  cursor: pointer;
+}
+
+.list {
+  margin-bottom: 10px;
+}
+.valid {
+  background-color: rgb(85, 197, 85);
+}
+.notValid {
+  background-color: rgb(214, 30, 30);
+}
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #c3c3c3; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1a71b4; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #1e1a1a; /* creates padding around scroll thumb */
+}
